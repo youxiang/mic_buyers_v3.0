@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">1582192692022602</string>
+    
+    <string name="linkedin_api_key">75ilb7l3wvt6yr</string>
+    <string name="linkedin_secret_key">tT69cBEsJqIm4kRu</string>
+    
+    <string name="twitter_consumer_key">SNM3rVcsvp5qzE9saFrwtw</string>
+    <string name="twitter_consumer_secret">Oagj65Ar8qRviOFWVSFtRAB1kk2ZicQtJbBUjfMtN8</string>
+
+</resources>

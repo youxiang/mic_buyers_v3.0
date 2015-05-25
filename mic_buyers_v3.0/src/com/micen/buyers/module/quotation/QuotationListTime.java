@@ -1,0 +1,14 @@
+package com.micen.buyers.module.quotation;
+
+public class QuotationListTime
+{
+	public String time;
+	public String minutes;
+	public String seconds;
+	public String hours;
+	public String month;
+	public String year;
+	public String timezoneOffset;
+	public String day;
+	public String date;
+}

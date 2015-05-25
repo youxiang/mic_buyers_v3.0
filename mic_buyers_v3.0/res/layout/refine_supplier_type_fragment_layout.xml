@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ExpandableListView
+        android:id="@+id/supplier_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_refine_listview"
+        android:cacheColorHint="@color/transparent"
+        android:childDivider="@color/product_group_child_divider"
+        android:divider="@color/product_group_child_divider"
+        android:dividerHeight="0.5dp"
+        android:groupIndicator="@null"
+        android:listSelector="@color/transparent"
+        android:paddingBottom="1dp" />
+
+</RelativeLayout>

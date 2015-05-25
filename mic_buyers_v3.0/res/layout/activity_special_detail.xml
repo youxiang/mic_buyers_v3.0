@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff" >
+
+    <include
+        android:id="@+id/special_detail_title_layout"
+        layout="@layout/common_title" />
+
+    <com.micen.buyers.view.SearchListProgressBar
+        android:id="@+id/progressbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/special_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/special_detail_title_layout" >
+
+        <ImageView
+            android:id="@+id/special_detail_banner"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:visibility="gone" />
+
+        <com.focustech.common.widget.PagerSlidingTabStrip
+            android:id="@+id/special_detail_pager_tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/special_detail_banner"
+            android:textSize="@dimen/page_indicator_title" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/special_detail_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/special_detail_pager_tab" />
+
+        <ImageView
+            android:id="@+id/special_detail_postrfq"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_special_detail_postrfq" />
+    </RelativeLayout>
+
+</RelativeLayout>

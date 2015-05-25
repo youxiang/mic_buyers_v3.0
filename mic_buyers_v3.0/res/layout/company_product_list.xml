@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp" >
+
+    <ImageView
+        android:id="@+id/company_product_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/search_product_bg"
+        android:padding="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/company_product_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/company_product_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/company_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/ll_unitprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/unit_price"
+                android:textColor="@color/search_list_item_right"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/company_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_price"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/mic_color666666"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_minorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" >
+
+            <TextView
+                android:id="@+id/tv_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/min_order"
+                android:textColor="@color/search_list_item_right"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/company_product_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_order"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/mic_color666666"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_tradeterms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" >
+
+            <TextView
+                android:id="@+id/tv_trade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/trade_terms"
+                android:textColor="@color/search_list_item_right"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/company_product_trade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_trade"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/mic_color666666"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_show_room" >
+
+    <com.micen.buyers.widget.other.DragLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:visibility="invisible" />
+
+            <ScrollView
+                android:id="@+id/scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/image_btn"
+                android:layout_below="@+id/linearLayout1" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/top_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp" >
+
+                        <ImageView
+                            android:id="@+id/iv_logo"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:padding="@dimen/padding_small"
+                            android:scaleType="center" />
+
+                        <TextView
+                            android:id="@+id/tv_company_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/gm_as_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="34dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="@dimen/padding_medium"
+                            android:background="@drawable/btn_gold_member"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/btn_gold_member"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="8dp"
+                                android:drawableLeft="@drawable/ic_supplier_gold_member"
+                                android:drawablePadding="4dp"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/gold_member"
+                                android:textColor="@color/color_eeeeee"
+                                android:textSize="13sp" />
+
+                            <View
+                                android:layout_width="1px"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:background="@color/color_cccccc" />
+
+                            <LinearLayout
+                                android:id="@+id/audit_type_layout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingLeft="8dp"
+                                android:paddingRight="8dp" >
+
+                                <TextView
+                                    android:id="@+id/audit_type_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:drawableLeft="@drawable/ic_supplier_as"
+                                    android:drawablePadding="4dp"
+                                    android:gravity="center"
+                                    android:singleLine="true"
+                                    android:text="@string/audited_supplier"
+                                    android:textColor="@color/color_eeeeee"
+                                    android:textSize="13sp" />
+
+                                <ImageView
+                                    android:id="@+id/iv_right"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:src="@drawable/icon_right" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/top_layout"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginLeft="@dimen/padding_medium"
+                            android:layout_marginRight="@dimen/padding_medium"
+                            android:background="@color/color_7d7d7d" />
+
+                        <com.micen.buyers.widget.flowlayout.FlowLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/padding_medium"
+                            android:paddingTop="@dimen/padding_medium" >
+
+                            <TextView
+                                android:id="@+id/company_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/icon_location_white"
+                                android:drawablePadding="4dp"
+                                android:gravity="center|start"
+                                android:paddingLeft="@dimen/padding_medium"
+                                android:singleLine="true"
+                                android:text="heilongjiang, China"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/member_since"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/icon_time_white"
+                                android:drawablePadding="4dp"
+                                android:gravity="center|start"
+                                android:paddingLeft="@dimen/padding_medium"
+                                android:singleLine="true"
+                                android:text="Member Since:2010"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+                        </com.micen.buyers.widget.flowlayout.FlowLayout>
+
+                        <LinearLayout
+                            android:id="@+id/member_info_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_medium"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/padding_medium"
+                                android:text="@string/member_info_title"
+                                android:textColor="@color/color_ffffff"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/contact_details_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_medium"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/padding_medium"
+                                android:text="@string/contact_details_title"
+                                android:textColor="@color/color_ffffff"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/company_profile_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/padding_medium" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/company_profile_title"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/iv_company_sence"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/tv_company_profile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingMultiplier="1.2"
+                                android:textColor="@color/color_f2f2f2"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/image_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/padding_medium"
+                android:src="@drawable/btn_back_to_normal_selector" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_f4f4f4"
+            android:orientation="vertical"
+            android:visibility="visible" >
+        </LinearLayout>
+    </com.micen.buyers.widget.other.DragLayout>
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/common_title" />
+
+</FrameLayout>

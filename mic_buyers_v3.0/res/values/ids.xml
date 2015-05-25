@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="mic_rfq_popup_gallery" type="id"/>
+    <item name="mic_rfq_popup_camera" type="id"/>
+    <item name="mic_rfq_capture_image" type="id"/>
+    <item name="mic_rfq_capture_del_image" type="id"/>
+    <item name="mic_rfq_business_type_edit" type="id"/>
+    <item name="group" type="id"/>
+    <item name="child" type="id"/>
+    <item name="property_one" type="id"/>
+    <item name="property_two" type="id"/>
+    
+    <item name="drag_layout_gridview" type="id"/>
+    <item name="drag_layout_listview" type="id"/>
+
+</resources>

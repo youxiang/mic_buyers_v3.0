@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 设置GoogleAnalyticsID号 -->
+    <string name="ga_trackingId">UA-33601791-7</string>
+
+    <!-- 待统计的Activity -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <string name="com.test.Main_TestGoogleAnalytics">进入页面</string>
+
+    <!-- 统计间隔多少秒 -->
+    <integer name="ga_dispatchPeriod">10</integer>
+
+    <!-- 自动跟踪报告未捕获的异常情况 -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+</resources>

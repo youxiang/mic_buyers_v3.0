@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="158dp"
+    android:layout_height="115dp" >
+
+    <ImageView
+        android:id="@+id/category_image"
+        android:layout_width="158dp"
+        android:layout_height="115dp"
+        android:contentDescription="category image" />
+
+    <TextView
+        android:id="@+id/tv_categoryname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/color_333333"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="158dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_4c000000" >
+
+        <TextView
+            android:id="@+id/tv_quotationnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/color_ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_quotationtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/quotations"
+            android:textColor="@color/color_ffffff"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_rfqtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/sourcingrequest"
+            android:textColor="@color/color_ffffff"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_rfqnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_rfqtext"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/color_ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

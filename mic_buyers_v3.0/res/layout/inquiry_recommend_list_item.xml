@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/bg_list_selector"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/mic_home_menu_text"
+        android:textSize="12sp" />
+
+</RelativeLayout>

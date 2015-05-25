@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_product_refine_list_selector2"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_product_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="All"
+        android:textColor="@color/color_666666"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv_product_group_name"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_product_group_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_product_group_name"
+        android:background="@color/color_cccccc" />
+
+</RelativeLayout>

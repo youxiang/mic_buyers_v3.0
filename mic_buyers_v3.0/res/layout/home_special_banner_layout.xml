@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.micen.buyers.view.HomeBannerViewPager
+        android:id="@+id/home_special_banner_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="128dp" />
+
+    <com.focustech.common.widget.viewpagerindictor.UnderlinePageIndicator
+        android:id="@+id/home_special_banner_point"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/mic_home_banner_thumb_bg"
+        android:orientation="horizontal" />
+
+</LinearLayout>

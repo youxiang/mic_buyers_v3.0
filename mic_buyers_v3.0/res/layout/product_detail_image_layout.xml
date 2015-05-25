@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.micen.buyers.activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.micen.buyers.view.HomeBannerViewPager
+        android:id="@+id/image_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.focustech.common.widget.viewpagerindictor.CirclePageIndicator
+        android:id="@+id/image_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        app:centered="true"
+        android:padding="8dp"
+        android:background="@color/transparent"
+        app:fillColor="@color/red"
+        app:pageColor="@color/color_ffffff" />
+
+</RelativeLayout>

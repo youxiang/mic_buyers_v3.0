@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/companyname_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="ShenZhen Signcomplex Science &amp; Technology Co.,Limited"
+        android:textColor="@color/mic_home_menu_text"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/companytype_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companyname_textview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp" >
+
+        <LinearLayout
+            android:id="@+id/location_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/membertype_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/search_location_image" />
+
+            <TextView
+                android:id="@+id/company_location_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="[Fujian,China]"
+                android:textColor="@color/mic_home_menu_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/member_as_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/location_linearlayout"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/as_img"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/search_time_image" />
+
+            <TextView
+                android:id="@+id/company_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="Aug 13,2012"
+                android:textColor="@color/mic_home_menu_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/area_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companytype_relativelayout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="7dp" >
+
+        <LinearLayout
+            android:id="@+id/membertype_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/country_img"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:src="@drawable/ic_supplier_gold_member" />
+
+            <TextView
+                android:id="@+id/country_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:text="Gold Member"
+                android:textColor="@color/mic_rfq_title_color"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/audit_supplier_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/membertype_linearlayout"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/supplier_onsidecheck"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:src="@drawable/ic_supplier_as" />
+
+            <TextView
+                android:id="@+id/tv_supplier_onsidecheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Audited Supplier"
+                android:textColor="@color/mic_rfq_title_color"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.focustech.common.widget.HorizontalListView
+        android:id="@+id/company_product_icon_list"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/area_relativelayout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:divider="@color/transparent"
+        android:visibility="gone" />
+
+</RelativeLayout>

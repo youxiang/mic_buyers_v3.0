@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mic_rfq_shipmentTerms"
+        style="@style/mic_rfq_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/mic_rfq_hint_shipmentTerms" />
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_termsDetailed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mic_rfq_fob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.8"
+                android:gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColor="@color/mic_home_menu_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/mic_rfq_edit_targetPrice"
+                style="@style/mic_rfq_edit_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:hint="@string/mic_rfq_hint_targetPrice"
+                android:inputType="numberDecimal"
+                android:maxLength="10" />
+
+            <EditText
+                android:id="@+id/mic_rfq_usd"
+                style="@style/mic_rfq_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.5"
+                android:focusable="false"
+                android:maxLength="10"
+                android:text="@string/mic_rfq_price_unit_item1" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/mic_rfq_edit_destinationPort"
+            style="@style/mic_rfq_edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/mic_rfq_hint_destinationPort"
+            android:maxLength="50"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/mic_rfq_paymentTerms"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:focusable="false"
+            android:hint="@string/mic_rfq_hint_paymentTerms"
+            android:maxLength="50" />
+    </LinearLayout>
+
+</LinearLayout>

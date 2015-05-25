@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_cccccc" />
+
+    <LinearLayout
+        android:id="@+id/ll_common_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f7f7f7"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/common_toolbar_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/home_bottom1"
+            android:textColor="@color/color_333333"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/common_toolbar_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/home_bottom2"
+            android:textColor="@color/color_333333"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/common_toolbar_esourcing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/home_bottom3"
+            android:textColor="@color/color_333333"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/common_toolbar_vo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/home_bottom4"
+            android:textColor="@color/color_333333"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*reset start */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th { text-align: inherit; }
+
+fieldset, img { border: 0; }
+
+body, button, input, select, textarea { font: 12px/1.5 "Hiragino Sans GB", "Droid Sans", tahoma, arial, sans-serif; }
+
+input, select, textarea { font-size: 100%; }
+
+ol, ul { list-style: none; }
+
+abbr, acronym { border: 0; font-variant: normal; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+/*reset end */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+.l { text-align: left; }
+
+.r { text-align: right; }
+
+.c { text-align: center; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.fl, .fr { *display: inline; }
+
+/*html5==unnecessary*/
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+body { background: #f5f5f5; font-size: 14px; font-weight: bold; }
+
+.contact-page { padding: 10px; background: #fff; }
+.contact-page input, .contact-page textarea { width: 98%; border: 1px solid #999; line-height: 22px; height: 22px; box-shadow: 1px 1px 3px #ccc inset; padding: 3px 5px; }
+.contact-page li { padding: 3px 0; }
+.contact-page .name select { width: 60px; vertical-align: middle; margin-right: 10px; line-height: 18px; }
+.contact-page .name input { width: 60%; }
+
+.contact-btn { padding: 10px; border-top: 1px solid #ddd; text-align: center; }
+.contact-btn button { width: 100%; height: 45px; font-size: 18px; font-weight: bold; background-color: #fff; border: solid 1px #999; background-image: -webkit-linear-gradient(bottom, #e6e6e6, white); background-image: -moz-linear-gradient(bottom, #e6e6e6, white); background-image: -o-linear-gradient(bottom, #e6e6e6, white); background-image: -ms-linear-gradient(bottom, #e6e6e6, white); background-image: linear-gradient(to top, #e6e6e6, #ffffff); }
+
+@media (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) { .contact-btn button { border-radius: 10px; }
+  .contact-page input, .contact-page textarea { width: 100%; border: 1px solid #999; line-height: 25px; height: 25px; box-shadow: 1px 1px 3px #ccc inset; } }

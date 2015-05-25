@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_account_pull_refresh_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/bg_vo_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_vo_title" />
+
+            <ImageView
+                android:id="@+id/btn_vo_setting"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/btn_vo_setting"
+                android:src="@drawable/ic_vo_setting" />
+
+            <TextView
+                android:id="@+id/tv_vo_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:gravity="center"
+                android:text="@string/vo_title"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_vo_unlogin"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tv_vo_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_vo_sign"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/vo_sign"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_vo_login"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tv_vo_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_vo_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_vo_messages"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:background="@drawable/btn_vo_messages"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_vo_message_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/vo_message"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_vo_quotations"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="69dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/btn_vo_quotations"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_vo_quotation_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/vo_quotation"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_vo_sourcing"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginLeft="199dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/btn_vo_sourcing"
+                    android:gravity="center"
+                    android:text="@string/vo_sourcing"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_vo_member"
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/btn_vo_member"
+                    android:gravity="center"
+                    android:text="@string/vo_member"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_vo_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_vo_center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3.5dp"
+                android:text="@string/mic_home_favoriate"
+                android:textColor="@color/table_line"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_below="@+id/tv_vo_favorite"
+                android:layout_marginTop="8dp"
+                android:background="@color/mic_menu_line" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_vo_product"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_list_selector"
+                        android:paddingBottom="1dp" >
+
+                        <ImageView
+                            android:layout_width="54dp"
+                            android:layout_height="55dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="17dp"
+                            android:background="@drawable/ic_vo_product" />
+
+                        <TextView
+                            android:id="@+id/tv_vo_product_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginTop="64dp"
+                            android:text="0"
+                            android:textColor="@color/color_f2a324"
+                            android:textSize="45sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/tv_vo_product_num"
+                            android:layout_marginRight="12dp"
+                            android:text="@string/vo_product"
+                            android:textColor="@color/color_333333"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/mic_menu_line" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.4"
+                        android:background="@color/white"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_vo_supplier"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_list_selector" >
+
+                            <ImageView
+                                android:layout_width="54dp"
+                                android:layout_height="38dp"
+                                android:layout_marginLeft="29dp"
+                                android:layout_marginTop="12dp"
+                                android:background="@drawable/ic_vo_supplier" />
+
+                            <TextView
+                                android:id="@+id/tv_vo_supplier_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="22dp"
+                                android:layout_marginTop="2dp"
+                                android:text="0"
+                                android:textColor="@color/color_6dae2a"
+                                android:textSize="32sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@+id/tv_vo_supplier_num"
+                                android:layout_marginRight="22dp"
+                                android:text="@string/vo_supplier"
+                                android:textColor="@color/color_333333"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/mic_menu_line" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_vo_category"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_list_selector" >
+
+                            <ImageView
+                                android:layout_width="54dp"
+                                android:layout_height="39dp"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="12dp"
+                                android:background="@drawable/ic_vo_category" />
+
+                            <TextView
+                                android:id="@+id/tv_vo_category_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="22dp"
+                                android:layout_marginTop="2dp"
+                                android:text="0"
+                                android:textColor="@color/color_4383bf"
+                                android:textSize="32sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@+id/tv_vo_category_num"
+                                android:layout_marginRight="22dp"
+                                android:text="@string/vo_category"
+                                android:textColor="@color/color_333333"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

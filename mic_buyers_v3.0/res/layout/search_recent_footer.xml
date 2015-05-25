@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/search_recent_clear"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_search_recent_clear"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/recent_searches_clear"
+        android:textColor="@color/color_e62e2e"
+        android:textSize="14sp" />
+
+</LinearLayout>

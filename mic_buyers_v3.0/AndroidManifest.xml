@@ -1,0 +1,224 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.micen.buyers.activity"
+    android:versionCode="13"
+    android:versionName="2.02.04" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- For ShareSDK -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name="com.micen.buyers.util.BuyerApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name="com.micen.buyers.activity.BaseActivity_" />
+        <activity android:name="com.micen.buyers.activity.BaseFragmentActivity_" />
+        <activity android:name="com.micen.buyers.activity.account.login.UserBaseActivity_" />
+        <activity android:name="com.micen.buyers.activity.rfq.RFQPostBaseActivity_" />
+        <activity
+            android:name="com.micen.buyers.activity.LoadingActivity_"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.micen.buyers.activity.home.HomeActivity_"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.micen.buyers.activity.searchresult.ProductSearchListActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.searchresult.CompanySearchListActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.searchresult.RefineActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.searchresult.BaseSeachListActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.searchresult.SearchActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.category.CategorySecondActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.MessageActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.SourcingRequestActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.QuotationReceivedActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.MemberInfoActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.FavoriteActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.message.MailDetailActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.message.MailPersonalActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.message.MailSearchActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.message.MailSendActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.message.VisitorRegisterActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.productdetail.ProductMessageActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.RFQAddActivity_"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.RFQDetailActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.RFQEditActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.RFQQuotationListActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.category.RFQCategoryActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.rfq.category.RFQCategorySearchActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.login.CountryActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.login.GetPasswordActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.login.LoginActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.login.RegisterActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.setting.FeedBackActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.setting.AboutUsActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.setting.GuideActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.setting.SettingActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.account.setting.TermsConditionActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.showroom.ShowRoomActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.special.SpecialDetailActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.showroom.ProductRefineActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.showroom.ProductSearchActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.productdetail.ImageBrowserActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.showroom.AuditProfileActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.showroom.ArAsActivity_"
+            android:screenOrientation="portrait" />
+
+        <!-- facebook user login or share -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- send image or video of facebook -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1582192692022602"
+            android:exported="true" />
+        <!-- Twitter -->
+        <activity
+            android:name="com.micen.twitter.android.PrepareRequestTokenActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.micen.twitter.android.WebsiteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.micen.buyers.activity.productdetail.ShareOnTwitterActicity_"
+            android:screenOrientation="portrait" />
+        <!-- Linkedin -->
+        <activity
+            android:name="com.micen.buyers.activity.productdetail.ShareOnLinkedinActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 注册一个行为收集服务 -->
+        <service
+            android:name="org.focus.common.service.analysis.AnalyticService"
+            android:enabled="true" >
+        </service>
+    </application>
+
+</manifest>

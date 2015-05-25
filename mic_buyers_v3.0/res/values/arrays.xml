@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mic_rfq_quantity_unit">
+        <item>@string/mic_rfq_quantity_unit_item1</item>
+        <item>@string/mic_rfq_quantity_unit_item2</item>
+        <item>@string/mic_rfq_quantity_unit_item3</item>
+        <item>@string/mic_rfq_quantity_unit_item4</item>
+        <item>@string/mic_rfq_quantity_unit_item5</item>
+        <item>@string/mic_rfq_quantity_unit_item6</item>
+        <item>@string/mic_rfq_quantity_unit_item7</item>
+        <item>@string/mic_rfq_quantity_unit_item8</item>
+        <item>@string/mic_rfq_quantity_unit_item9</item>
+        <item>@string/mic_rfq_quantity_unit_item10</item>
+        <item>@string/mic_rfq_quantity_unit_item11</item>
+        <item>@string/mic_rfq_quantity_unit_item12</item>
+        <item>@string/mic_rfq_quantity_unit_item13</item>
+    </string-array>
+    <string-array name="mic_rfq_quantity_unit_edit">
+        <item>@string/mic_rfq_quantity_unit_item1</item>
+        <item>@string/mic_rfq_quantity_unit_item2</item>
+        <item>@string/mic_rfq_quantity_unit_item3</item>
+        <item>@string/mic_rfq_quantity_unit_item4</item>
+        <item>@string/mic_rfq_quantity_unit_item5</item>
+        <item>@string/mic_rfq_quantity_unit_item6</item>
+        <item>@string/mic_rfq_quantity_unit_item7</item>
+        <item>@string/mic_rfq_quantity_unit_item8</item>
+        <item>@string/mic_rfq_quantity_unit_item9</item>
+        <item>@string/mic_rfq_quantity_unit_item10</item>
+        <item>@string/mic_rfq_quantity_unit_item11</item>
+        <item>@string/mic_rfq_quantity_unit_item12</item>
+        <item>@string/mic_rfq_quantity_unit_item13</item>
+        <item>@string/mic_rfq_other</item>
+    </string-array>
+    <string-array name="mic_rfq_shipment_terms">
+        <item>@string/mic_rfq_shipment_terms_item1</item>
+        <item>@string/mic_rfq_shipment_terms_item2</item>
+        <item>@string/mic_rfq_shipment_terms_item3</item>
+        <item>@string/mic_rfq_shipment_terms_item4</item>
+        <item>@string/mic_rfq_shipment_terms_item5</item>
+        <item>@string/mic_rfq_shipment_terms_item6</item>
+        <item>@string/mic_rfq_shipment_terms_item7</item>
+        <item>@string/mic_rfq_shipment_terms_item8</item>
+        <item>@string/mic_rfq_shipment_terms_item9</item>
+        <item>@string/mic_rfq_shipment_terms_item10</item>
+        <item>@string/mic_rfq_shipment_terms_item11</item>
+        <item>@string/mic_rfq_shipment_terms_item12</item>
+    </string-array>
+    <string-array name="mic_rfq_price_unit">
+        <item>@string/mic_rfq_price_unit_item1</item>
+        <item>@string/mic_rfq_price_unit_item2</item>
+        <item>@string/mic_rfq_price_unit_item3</item>
+        <item>@string/mic_rfq_price_unit_item4</item>
+        <item>@string/mic_rfq_price_unit_item5</item>
+        <item>@string/mic_rfq_price_unit_item6</item>
+        <item>@string/mic_rfq_price_unit_item7</item>
+        <item>@string/mic_rfq_price_unit_item8</item>
+        <item>@string/mic_rfq_price_unit_item9</item>
+        <item>@string/mic_rfq_price_unit_item10</item>
+        <item>@string/mic_rfq_price_unit_item11</item>
+        <item>@string/mic_rfq_price_unit_item12</item>
+    </string-array>
+    <string-array name="mic_rfq_price_unit_edit">
+        <item>@string/mic_rfq_price_unit_item1</item>
+        <item>@string/mic_rfq_price_unit_item2</item>
+        <item>@string/mic_rfq_price_unit_item3</item>
+        <item>@string/mic_rfq_price_unit_item4</item>
+        <item>@string/mic_rfq_price_unit_item5</item>
+        <item>@string/mic_rfq_price_unit_item6</item>
+        <item>@string/mic_rfq_price_unit_item7</item>
+        <item>@string/mic_rfq_price_unit_item8</item>
+        <item>@string/mic_rfq_price_unit_item9</item>
+        <item>@string/mic_rfq_price_unit_item10</item>
+        <item>@string/mic_rfq_price_unit_item11</item>
+        <item>@string/mic_rfq_price_unit_item12</item>
+        <item>@string/mic_rfq_other</item>
+    </string-array>
+    <string-array name="mic_rfq_location">
+        <item>@string/mic_rfq_location_item1</item>
+        <item>@string/mic_rfq_location_item2</item>
+        <item>@string/mic_rfq_location_item3</item>
+        <item>@string/mic_rfq_location_item4</item>
+    </string-array>
+    <string-array name="mic_rfq_number_employees">
+        <item>&lt;5</item>
+        <item>5~50</item>
+        <item>51~200</item>
+        <item>201~500</item>
+        <item>501~1000</item>
+        <item>&gt;1000</item>
+    </string-array>
+    <string-array name="mic_rfq_payment_terms">
+        <item>@string/mic_rfq_payment_terms_item1</item>
+        <item>@string/mic_rfq_payment_terms_item2</item>
+        <item>@string/mic_rfq_payment_terms_item3</item>
+        <item>@string/mic_rfq_payment_terms_item4</item>
+        <item>@string/mic_rfq_other</item>
+    </string-array>
+    <string-array name="mic_rfq_business_type">
+        <item>@string/mic_rfq_business_type_item1</item>
+        <item>@string/mic_rfq_business_type_item2</item>
+        <item>@string/mic_rfq_business_type_item3</item>
+        <item>@string/mic_rfq_business_type_item4</item>
+        <item>@string/mic_rfq_business_type_item5</item>
+        <item>@string/mic_rfq_business_type_item6</item>
+        <item>@string/mic_rfq_business_type_item7</item>
+        <item>@string/mic_rfq_business_type_item8</item>
+        <item>@string/mic_rfq_other</item>
+    </string-array>
+    <string-array name="mic_rfq_export_markets">
+        <item>@string/mic_rfq_export_markets_all</item>
+        <item>@string/mic_rfq_export_markets_item1</item>
+        <item>@string/mic_rfq_export_markets_item2</item>
+        <item>@string/mic_rfq_export_markets_item3</item>
+        <item>@string/mic_rfq_export_markets_item4</item>
+        <item>@string/mic_rfq_export_markets_item5</item>
+        <item>@string/mic_rfq_export_markets_item6</item>
+        <item>@string/mic_rfq_export_markets_item7</item>
+        <item>@string/mic_rfq_export_markets_item8</item>
+        <item>@string/mic_rfq_export_markets_item9</item>
+    </string-array>
+    <string-array name="inquiry_recommend_name">
+        <item>@string/inquiry_recommend_name1</item>
+        <item>@string/inquiry_recommend_name2</item>
+        <item>@string/inquiry_recommend_name3</item>
+        <item>@string/inquiry_recommend_name4</item>
+        <item>@string/inquiry_recommend_name5</item>
+    </string-array>
+    <string-array name="inquiry_recommend_value">
+        <item>@string/inquiry_recommend_value1</item>
+        <item>@string/inquiry_recommend_value2</item>
+        <item>@string/inquiry_recommend_value3</item>
+        <item>@string/inquiry_recommend_value4</item>
+        <item>@string/inquiry_recommend_value5</item>
+    </string-array>
+    <string-array name="popup_share_list">
+        <item>@string/share_facebook</item>
+        <item>@string/share_twitter</item>
+        <item>@string/share_linkedin</item>
+    </string-array>
+    <string-array name="search_type">
+        <item>ProductsStatus</item>
+        <item>CompanyStatus</item>
+    </string-array>
+    <string-array name="recommend_mailbox">
+        <item>\&#064;gmail.com</item>
+        <item>\&#064;hotmail.com</item>
+        <item>\&#064;yahoo.com</item>
+        <item>\&#064;outlook.com</item>
+        <item>\&#064;aol.com</item>
+        <item>\&#064;hotmail.co.uk</item>
+        <item>\&#064;yahoo.co.uk</item>
+        <item>\&#064;mail.ru</item>
+        <item>\&#064;rediffmail.com</item>
+        <item>\&#064;live.com</item>
+        <item>\&#064;msn.com</item>
+    </string-array>
+    <string-array name="gender">
+        <item>@string/gender_mr</item>
+        <item>@string/gender_mrs</item>
+        <item>@string/gender_misss</item>
+        <item>@string/gender_ms</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <LinearLayout
+            android:id="@+id/mic_rfq_capture_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/mic_rfq_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mic_select"
+        android:gravity="center_vertical"
+        android:hint="@string/mic_rfq_hint_category"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/mic_home_menu_text"
+        android:textColorHint="@color/mic_home_search_text"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_requirementsToSupplier_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/mic_rfq_requirementsToSupplier_layout_underline"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_supplier_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/mic_rfq_location"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/mic_rfq_hint_location" />
+
+        <TextView
+            android:id="@+id/mic_rfq_numbersOfEmployees"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/mic_rfq_hint_numbersOfEmployees" />
+
+        <EditText
+            android:id="@+id/mic_rfq_edit_companyCertification"
+            style="@style/mic_rfq_edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/mic_rfq_hint_companyCertification"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/mic_rfq_businessType"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/mic_rfq_hint_businessType" />
+
+        <TextView
+            android:id="@+id/mic_rfq_exportMarkets"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/mic_rfq_hint_exportMarkets" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_requirementsForTrading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_trading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <include
+            android:id="@+id/mic_rfq_shipmentTerms_layout"
+            layout="@layout/mic_rfq_shipment_terms" />
+    </LinearLayout>
+
+</LinearLayout>

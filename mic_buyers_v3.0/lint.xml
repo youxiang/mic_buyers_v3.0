@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/micen/buyer/activity/rfq/RFQPostBaseActivity.java" />
+    </issue>
+    <issue id="Override" severity="ignore" />
+    <issue id="ValidFragment" severity="ignore" />
+    <issue id="ViewConstructor" severity="ignore" />
+</lint>

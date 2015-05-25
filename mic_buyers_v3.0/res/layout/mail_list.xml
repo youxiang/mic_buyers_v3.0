@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <com.micen.buyers.view.SearchListProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.focustech.common.widget.pulltorefresh.PullToRefreshListView
+            android:id="@+id/lv_mail_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mail_delete_layout"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/color_cccccc"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@drawable/bg_list_selector"
+            android:scrollingCache="false" />
+
+        <RelativeLayout
+            android:id="@+id/mail_delete_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_mail_delete_pop"
+            android:visibility="gone" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/color_cccccc" />
+
+            <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_delete_gray" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/mail_list_empty"
+        android:layout_width="163dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_mail_empty"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/refine_title"
+        layout="@layout/common_title" />
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/refine_title"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/color_f2f2f2"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_medium"
+            android:text="@string/product_group"
+            android:textColor="@color/color_666666"
+            android:textSize="16sp" >
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/product_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:cacheColorHint="@color/transparent"
+        android:childDivider="@null"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:groupIndicator="@null"
+        android:listSelector="@color/transparent" >
+    </ExpandableListView>
+
+    <ImageView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_product_group_empty"
+        android:visibility="gone" />
+
+</RelativeLayout>

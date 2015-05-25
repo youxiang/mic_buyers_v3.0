@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="22dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+        android:id="@+id/mic_rfq_edit_productName"
+        style="@style/mic_rfq_edit_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/mic_rfq_hint_productName"
+        android:maxLength="160" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/mic_rfq_purchaseQuantity"
+            style="@style/mic_rfq_edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="@string/mic_rfq_hint_purchaseQuantity"
+            android:inputType="numberDecimal"
+            android:maxLength="50" />
+
+        <EditText
+            android:id="@+id/mic_rfq_pieces"
+            style="@style/mic_rfq_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:maxLength="15"
+            android:text="@string/mic_rfq_quantity_unit_item1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mic_rfq_expiredDate"
+        style="@style/mic_rfq_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/mic_rfq_hint_expiredDate" />
+
+    <com.micen.buyers.view.ScrollEditText
+        android:id="@+id/mic_rfq_edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mic_rfq_edit_bg"
+        android:gravity="center_vertical|top"
+        android:hint="@string/mic_rfq_hint_description"
+        android:maxLength="4000"
+        android:maxLines="5"
+        android:minHeight="111dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/mic_home_menu_text"
+        android:textColorHint="@color/mic_home_search_text"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/mic_rfq_optional_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mic_menu_line" />
+    </LinearLayout>
+
+</LinearLayout>

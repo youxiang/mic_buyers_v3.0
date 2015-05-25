@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_yellow">#fff5d9</color>
+    <!-- 红色 -->
+    <color name="dark_red">#cd0000</color>
+    <!-- 橙色 -->
+    <color name="orange">#f47920</color>
+    <!-- 肤色 -->
+    <color name="colour">#f5f5f5</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+
+    <!-- 筛选黑 -->
+    <color name="sift_black">#1f1f1f</color>
+
+    <!-- 筛选灰 -->
+    <color name="sift_gray">#383838</color>
+
+    <!-- 黑色 -->
+    <color name="table_line">#999999</color>
+    <color name="black">#000000</color>
+    <color name="default_readed">#bfbfbf</color>
+
+    <!-- 品蓝 -->
+    <color name="royal_blue">#4169E1</color>
+    <!-- 深蓝 -->
+    <color name="dark_blue">#004098</color>
+    <!-- 灰色 -->
+    <color name="gray">#a0a0a0</color>
+    <!-- 深灰 -->
+    <color name="dark_gray">#505050</color>
+    <!-- 淡灰 -->
+    <color name="light_gray">#c8c8c8</color>
+    <color name="jackie_blue">#0B1746</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="bronze">#FAEBD7</color>
+    <color name="red">#FF0000</color>
+    <color name="register_color">#0065b2</color>
+    <color name="ar_diver">#f2f2f2</color>
+    <color name="ar_diver_child">#d9d9d9</color>
+    <!-- 绿色 -->
+    <color name="green">#90EE90</color>
+    <color name="light_black">#333333</color>
+    <color name="gray_black">#666666</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="mic_quotation_page_subject_title_color">#666666</color>
+    <color name="mic_quotation_page_subject_title_layout_color">#F2F2F2</color>
+    <color name="mic_quotation_list_page_quotation_tx_color">#999999</color>
+    <color name="mic_quotation_list_page_company_title_layout_bg_color">#EBEBEB</color>
+    <color name="mic_product_browse_history_date_layout">#e6e6e6</color>
+    <color name="mic_product_browse_history_date_text">#808080</color>
+    <color name="mic_common_title_bg">#c30013</color>
+    <color name="mic_common_title_down_bg">#a80b1b</color>
+    <color name="mic_white">#FFFFFF</color>
+    <color name="mic_menu_line">#cccccc</color>
+    <color name="mic_home_menu_text">#333333</color>
+    <color name="mic_home_search_bg">#dddddd</color>
+    <color name="mic_home_search_text">#bfbfbf</color>
+    <color name="mic_bottom_click_bg">#f2f2f2</color>
+    <color name="mic_home_banner_thumb">#ff4c4c</color>
+    <color name="mic_home_banner_thumb_bg">#d9d9d9</color>
+    <color name="mic_rfq_expand_bg">#e5e5e5</color>
+    <color name="mic_color666666">#666666</color>
+    <color name="mic_rfq_title_color">#999999</color>
+    <color name="mic_color3baccc">#a3bacc</color>
+    <color name="mic_rfq_reject_reason">#fff2f2</color>
+    <color name="mic_product_browse_item_company_text">#1d7348</color>
+    <color name="mic_product_browse_history_title_text">#e62e2b</color>
+    <color name="mic_search_keywords_list_item_bg_down">#e0e0e0</color>
+    <color name="mic_coloreff7ff">#eff7ff</color>
+    <color name="mic_colord64a00">#d64a00</color>
+    <color name="mic_rfq_title_bg">#F7F7F7</color>
+    <color name="mic_rfq_quotation_company_title">#c30013</color>
+
+    <!-- V2.01.05  发此为版本的分界线 -->
+    <color name="setting_bg_color">#efefef</color>
+    <color name="search_list_item_left">#7a7a7a</color>
+    <color name="search_list_item_right">#a6a6a6</color>
+    <color name="search_list_country_text">#ff9900</color>
+    <color name="search_sift_down">#414141</color>
+
+    <!-- V2.01.06  发此为版本的分界线 -->
+    <color name="rfq_updated_date">#e1e1e1</color>
+    <color name="product_group_divider">#515151</color>
+    <color name="product_group_child_divider">#cccccc</color>
+    <color name="product_group_name">#c7c7c7</color>
+    <color name="product_group_up">#404040</color>
+    <color name="product_group_down">#383838</color>
+    <color name="product_group_child_down">#343434</color>
+    <color name="product_group_child_up">#262626</color>
+    <color name="product_search_bg">#4000</color>
+    <color name="btn_product_search">#FFE13B</color>
+    <color name="btn_product_search_down">#ffb83b</color>
+    <color name="btn_product_search_text">#733617</color>
+    <color name="member_item_name">#456fab</color>
+    <color name="register_text_color">#e62e2e</color>
+    <color name="submit_succcessed">#8cba00</color>
+    <color name="button_unable">#bfbfbf</color>
+    <color name="get_last_price_normal">#0065cd</color>
+    <color name="get_last_price_down">#0054aa</color>
+    <color name="tree_second_level">#0054aa</color>
+    <color name="tree_three_level">#464646</color>
+    <color name="bottom_bar_down">#4b4b4b</color>
+    <color name="mail_detail_profile_bg">#EFF2F7</color>
+    <color name="home_recommend_bg">#fafafa</color>
+    <color name="indicator_color">#e43939</color>
+    <color name="rfq_bottom_color">#b07309</color>
+    <color name="rfq_bottom_bg_color">#fff7d5</color>
+    <color name="category_title">#f9f9f9</color>
+    <color name="second_category_title">#f3f3f3</color>
+    <color name="second_category_title_down">#dbdbdb</color>
+    <color name="third_category_bg">#8b8b8b</color>
+    <color name="third_category_bg_down">#767676</color>
+    <color name="btn_update_dialog_down">#e2e2e2</color>
+    <color name="guide_color_1">#8f8f8f</color>
+    <color name="divider_one">#c0bfc4</color>
+    <color name="easy_introduce">#fba044</color>
+    <color name="easy_msg1">#66737e</color>
+    <color name="easy_msg2">#8f8f8f</color>
+    <!-- V2.02.04  发此为版本的分界线 -->
+    <color name="color_888888">#888888</color>
+    <color name="color_c30013">#c30013</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_c8c7cc">#c8c7cc</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+
+    <!-- V3.00.00  发此为版本的分界线 -->
+    <color name="color_f2a324">#f2a324</color>
+    <color name="color_6dae2a">#6dae2a</color>
+    <color name="color_d0d0d0">#d0d0d0</color>
+    <color name="color_4383bf">#4383bf</color>
+    <color name="color_e62e2e">#e62e2e</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_4b4b4b">#4b4b4b</color>
+    <color name="color_475866">#475866</color>
+    <color name="color_ebf7ff">#ebf7ff</color>
+    <color name="color_507292">#507292</color>
+    <color name="color_b07309">#b07309</color>
+    <color name="color_EFF2F7">#EFF2F7</color>
+    <color name="color_e43939">#e43939</color>
+    <color name="color_7a7a7a">#7a7a7a</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_a80b1b">#a80b1b</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_007aff">#007aff</color>
+    <color name="color_0063cc">#0063cc</color>
+    <color name="color_eff3f9">#eff3f9</color>
+    <color name="color_fff7d5">#fff7d5</color>
+    <color name="color_cc2929">#cc2929</color>
+    <color name="color_66000000">#66000000</color>
+    <color name="color_80000000">#80000000</color>
+    <color name="color_7a7e86">#7A7E86</color>
+	<color name="color_d1d1d1">#D1D1D1</color>
+	<color name="color_7d7d7d">#7d7d7d</color>
+	<color name="color_86b9ff">#86b9ff</color>
+	<color name="color_f4f4f4">#f4f4f4</color>
+	<color name="color_66999999">#66999999</color>
+	<color name="color_4c000000">#4c000000</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_cf2929">#cf2929</color>
+    <color name="color_d9f0ff">#D9F0FF</color>
+    <color name="color_787777">#787777</color>
+
+    <color name="page_indicator_title">#333333</color>
+    <color name="page_indicator_title_selected">#e62e2e</color>
+    <color name="page_indicator_line_background">#e6e6e6</color>
+    
+</resources>

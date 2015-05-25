@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mic_white"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/table_title_didiver"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/mic_menu_line" />
+
+    <TextView
+        android:id="@+id/table_title"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:background="@color/setting_bg_color"
+        android:gravity="center_vertical"
+        android:textColor="@color/mic_home_menu_text"
+        android:textSize="15sp" />
+
+    <TableLayout
+        android:id="@+id/table_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TableLayout>
+
+    <View
+        android:id="@+id/table_footer_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/mic_menu_line" />
+
+</LinearLayout>

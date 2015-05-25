@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_update_dialog"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="2dp" >
+
+    <TextView
+        android:id="@+id/tvDialogMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="105dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/app_name"
+        android:textColor="@color/mic_home_menu_text"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="1.5dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/mic_menu_line" />
+
+    <LinearLayout
+        android:id="@+id/update_dialog_btn_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingBottom="3.5dp"
+        android:paddingLeft="1.5dp"
+        android:paddingRight="2dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_update_dialog"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="@string/mic_cancel"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/mic_menu_line" />
+
+        <Button
+            android:id="@+id/btConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_update_dialog"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/mic_home_meun_text11"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/update_dialog_btn_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingBottom="3.5dp"
+        android:paddingLeft="1.5dp"
+        android:paddingRight="2dp" >
+
+        <Button
+            android:id="@+id/btSure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_update_dialog"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/mic_home_meun_text11"
+            android:textColor="@color/mic_home_menu_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
